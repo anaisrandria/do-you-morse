@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parlez-vous le morse ?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title-container">
+        <section class="animation">
+            <div class="first">
+                <div>do you <span>morse?</span></div>
+            </div>
+            <div class="second">
+                <div>-.. --- / -.-- --- ..- / <span>-- --- .-. ... . ?</span></div>
+            </div>
+        </section>
+    </div>
+    <div id="container">
+        <div class="box">
+            <h3>Latin</h3>
+            <div class="input-button">
+                <textarea type="text" id="input-encode" rows="7">Write something...</textarea>
+                <button id="button-encode">Encode</button>
+            </div>
+            <p id="output-encode"> </p>
+        </div>
+        <div class="box">
+            <h3>Morse</h3>
+            <div class="input-button">
+                <textarea type="text" id="input-decode" rows="7">Write something...</textarea>
+                <button id="button-decode">Decode</button>
+            </div>
+            <p id="output-decode"> </p>
+        </div>
+</body>
+</html>

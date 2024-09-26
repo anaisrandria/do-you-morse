@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    border: none;
+    margin: none;
+    font-family: 'Roboto';
+}
+
+.title-container {
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    height: 3rem;
+    margin:50px 0px 50px 0px;
+}
+
+.animation {
+    height:50px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.animation span {
+    color: white;
+    background-color: black;
+}
+
+.animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 5s infinite;
+}
+
+.first div {
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+.second div {
+    background-color: transparent;
+    color: black;
+}
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    40% {margin-top: -5.62rem;}
+    60% {margin-top: -5.62rem;}
+    100% {margin-top: 0;}
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: calc(100vw - 20px);
+    gap: 20px;
+    color: white;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.box {
+    width: 50%;
+    height: 20rem;
+    padding: 10px 10px 50px 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 140px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+textarea {
+    /* height: 140px; */
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+button {
+    height: 40px;
+    width: auto;
+    padding: 0px 30px 0px 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition-duration: 0.1s;
+}
+
+@media screen and (max-width: 940px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        text-align: center;
+        margin: 20px;
+    }
+}
