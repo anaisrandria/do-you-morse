@@ -1,9 +1,8 @@
 # Do you morse?
-
+<a href="https://do-you-morse.vercel.app">do-you-morse.vercel.app</a>
 
 ## À propos :
 Application simple visant à encoder / décoder du morse.
-<a href="https://do-you-morse.vercel.app">do-you-morse.vercel.app</a>
 
 ## Caractéristiques :
 - État du projet : Terminé / Prototype
