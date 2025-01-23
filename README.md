@@ -14,7 +14,7 @@ Application simple visant à encoder / décoder du morse.
   - IDE : VSCode
 
 ## Objectifs pédagogiques : 
-- Manipuler des objets
+- Manipuler des objets, des boucles et des fonctions
 - Manipuler du CSS, HTML et JavaScript
 
 
