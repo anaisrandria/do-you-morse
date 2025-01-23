@@ -3,7 +3,7 @@
 
 ## À propos :
 Application simple visant à encoder / décoder du morse.
-do-you-morse.vercel.app
+<a href="https://do-you-morse.vercel.app">do-you-morse.vercel.app</a>
 
 ## Caractéristiques :
 - État du projet : Terminé / Prototype
