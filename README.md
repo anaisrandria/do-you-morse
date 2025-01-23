@@ -13,9 +13,8 @@ Application simple visant à encoder / décoder du morse.
   - Langages de programmation : JavaScript, HTML, CSS
   - IDE : VSCode
 
-## Objectifs pédagogiques : 
-- Manipuler des objets, des boucles et des fonctions
-- Manipuler du CSS, HTML et JavaScript
-
+## Améliorations :
+- Refactorisation, utilisation de fonction fléchées nommées pour plus de clarté
+- Revoir le CSS pour l'adapter en mobile-first 
 
 
